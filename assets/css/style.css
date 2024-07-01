@@ -360,7 +360,38 @@ footer {
     .social-icons a {
         font-size: 30px;
     }
+    .parallax-cell{
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+    }
+    .parallax-cell h2{
+        font-size: 38px;
+        position: absolute;
+        margin-right: 18px;
+    }
+    .parallax-cell2{
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+    }
+    .parallax-cell2 h3{
+        font-size: 38px;
+    }
 }
+
 
 @media (max-width: 480px) {
     nav {
@@ -392,35 +423,5 @@ footer {
     }
     .parallax-pc2{
         display: none;
-    }
-    .parallax-cell{
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: rgb(255, 255, 255);
-    }
-    .parallax-cell h2{
-        font-size: 38px;
-        position: absolute;
-        margin-right: 18px;
-    }
-    .parallax-cell2{
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: rgb(255, 255, 255);
-    }
-    .parallax-cell2 h3{
-        font-size: 38px;
     }
 }
