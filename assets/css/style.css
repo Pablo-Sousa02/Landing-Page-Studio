@@ -27,7 +27,6 @@ header {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
