@@ -321,22 +321,22 @@ footer {
     }
     .parallax-pc0 {
         background-attachment: fixed;
-        background-size: cover;
+        background-size: 1;
         background-position: center;
         position: relative;
         height: 100vh;
-        display: flex;
+        display: block;
         justify-content: center;
         align-items: center;
         color: rgb(255, 255, 255);
     }
     .parallax-cell{
         background-attachment: fixed;
-        background-size: cover;
+        background-size: 1;
         background-position: center;
         position: relative;
         height: 60vh;
-        display: flex;
+        display: block;
         justify-content: center;
         align-items: center;
         color: rgb(255, 255, 255);
@@ -351,8 +351,8 @@ footer {
         background-size: cover;
         background-position: center;
         position: relative;
-        height: 60vh;
-        display: flex;
+        height: 100vh;
+        display: block;
         justify-content: center;
         align-items: center;
         color: rgb(255, 255, 255);
