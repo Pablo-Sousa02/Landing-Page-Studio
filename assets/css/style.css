@@ -16,7 +16,6 @@ header {
     text-align: center;
     position: relative;
     animation: fadeIn 1s ease-in-out;
-    display: flex;
 }
 
 .header-content p {
@@ -34,6 +33,7 @@ header {
 }
 
 .parallax-pc0 {
+    height: 100vh;
     max-width: 100%;
     min-width: 100%;
 }
@@ -315,7 +315,6 @@ footer {
     .parallax-cell2 {
         background-attachment: fixed;
         background-position: center;
-        background-size: cover;
         height: 100vh;
         display: flex;
         justify-content: center;
