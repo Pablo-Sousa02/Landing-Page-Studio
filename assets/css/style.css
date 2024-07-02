@@ -10,20 +10,36 @@ html {
     scroll-behavior: smooth;
 }
 
-.parallax-pc0{
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+header {
     height: 100vh;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    position: relative;
+    animation: fadeIn 1s ease-in-out;
+    display: flex;
 }
 
 .header-content p {
     margin-top: 500px;
 }
+
+.parallax-pc0, .parallax-pc1, .parallax-pc2 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.parallax-pc0 {
+    height: 100vh;
+    max-width: 100%;
+    min-width: 100%;
+}
+
 .parallax-pc1, .parallax-pc2 {
     height: 100vh;
 }
@@ -285,13 +301,12 @@ footer {
     .parallax-cell1 {
         background-attachment: fixed;
         background-position: center;
-        background-size: 1;
+        background-size: cover;
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
         color: rgb(255, 255, 255);
-        min-width: 90%;
     }
 
     .parallax-cell h2 {
@@ -301,6 +316,7 @@ footer {
     .parallax-cell2 {
         background-attachment: fixed;
         background-position: center;
+        background-size: cover;
         height: 100vh;
         display: flex;
         justify-content: center;
