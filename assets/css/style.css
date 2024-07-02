@@ -4,7 +4,6 @@ body {
     padding: 0;
     color: #ffffff;
     background-color: #000000;
-    animation: fadeIn 1s ease-in-out;
 }
 
 html {
@@ -305,7 +304,6 @@ footer {
         background-size: cover;
         height: 50vh;
         display: flex;
-        position: relative;
         justify-content: center;
         align-items: center;
         color: rgb(255, 255, 255);
@@ -320,7 +318,6 @@ footer {
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
-        position: relative;
         height: 40vh;
         display: flex;
         justify-content: center;
