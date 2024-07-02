@@ -300,6 +300,7 @@ footer {
     .parallax-cell1 {
         background-attachment: fixed;
         background-position: center;
+        background-size: 1;
         height: 100vh;
         display: flex;
         justify-content: center;
