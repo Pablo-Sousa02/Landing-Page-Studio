@@ -321,6 +321,7 @@ footer {
     }
     .parallax-pc0 {
         background-attachment: fixed;
+        background-repeat: no-repeat;
         background-size: 1;
         background-position: center;
         position: relative;
@@ -332,7 +333,7 @@ footer {
     }
     .parallax-cell{
         background-attachment: fixed;
-        background-size: 1;
+        background-size: cover;
         background-position: center;
         position: relative;
         height: 60vh;
