@@ -321,9 +321,6 @@ footer {
     .cta-button {
         font-size: 16px;
     }
-    .parallax-pc0{
-        display: none;
-    }
     .parallax-pc0 {
         background-attachment: fixed;
         background-size: cover;
@@ -339,10 +336,9 @@ footer {
     }
     .parallax-cell1{
         background-attachment: fixed;
-        background-size: 1;
         background-position: center;
         position: relative;
-        height: 60vh;
+        height: 100vh;
         display: block;
         justify-content: center;
         align-items: center;
@@ -356,10 +352,9 @@ footer {
     }
     .parallax-cell2{
         background-attachment: fixed;
-        background-size: 1;
         background-position: center;
         position: relative;
-        height: 100vh;
+        height: 60vh;
         display: flex;
         justify-content: center;
         align-items: center;
