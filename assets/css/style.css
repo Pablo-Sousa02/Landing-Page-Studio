@@ -18,7 +18,6 @@ header {
     color: white;
     text-align: center;
     position: relative;
-    overflow: hidden;
     animation: fadeIn 2s ease-in-out;
 }
 
@@ -44,7 +43,7 @@ header {
 }
 
 .parallax-pc1, .parallax-pc2 {
-    height: 60vh;
+    height: 100vh;
 }
 
 .parallax-cell1, .parallax-cell2 {
@@ -330,9 +329,9 @@ footer {
     .parallax-cell2 {
         background-attachment: fixed;
         background-position: center;
-        background-size: cover;
+        background-size: 1;
         position: relative;
-        height: 100vh;
+        height: 60vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -341,6 +340,8 @@ footer {
 
     .parallax-cell2 h3 {
         font-size: 38px;
+        position: relative;
+        left: 43px;
     }
 
     .parallax-pc1, .parallax-pc2 {
