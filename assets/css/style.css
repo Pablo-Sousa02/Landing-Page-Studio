@@ -25,6 +25,7 @@ header {
 
 .parallax-pc0, .parallax-pc1, .parallax-pc2 {
     background-attachment: fixed;
+    background-size: cover;
     background-position: center;
     position: relative;
     display: flex;
@@ -300,7 +301,7 @@ footer {
     .parallax-cell1 {
         background-attachment: fixed;
         background-position: center;
-        height: 50vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -315,7 +316,7 @@ footer {
     .parallax-cell2 {
         background-attachment: fixed;
         background-position: center;
-        height: 40vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
