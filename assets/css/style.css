@@ -306,7 +306,7 @@ footer {
 
 /* Responsiveness */
 @media (max-width: 1200px) {
-    
+
     .header-content h1 {
         font-size: 36px;
     }
@@ -347,7 +347,6 @@ footer {
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
-        position: static;
         height: 100vh;
         display: flex;
         position: relative;
@@ -359,12 +358,12 @@ footer {
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
+        position: relative;
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
         color: rgb(255, 255, 255);
-        min-width: 90%;
     }
     .parallax-cell2 h3{
         font-size: 38px;
@@ -423,7 +422,7 @@ footer {
 
     .parallax-text, h3 {
         font-size: 24px;
-        left: 5%;
+        margin-right: 80px;
     }
 
     .header-content h1 {
