@@ -43,7 +43,7 @@ header {
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +55,7 @@ header {
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,43 +319,16 @@ footer {
     .cta-button {
         font-size: 16px;
     }
-}
-
-@media (max-width: 768px) {
-    
-    nav .nav-links li a {
-        font-size: 15px;
-    }
-
-    nav{
-        right: 1px;
-    }
-
-    nav .logo {
+    .parallax-pc0 {
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 100vh;
         display: flex;
-        font-size: 15px;
-
-    }
-
-    .parallax-text, h3 {
-        font-size: 28px;
-        left: 10%;
-    }
-
-    .header-content h1 {
-        font-size: 28px;
-    }
-
-    .header-content p {
-        font-size: 16px;
-    }
-
-    .cta-button {
-        font-size: 14px;
-    }
-
-    .social-icons a {
-        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
     }
     .parallax-cell{
         background-attachment: fixed;
@@ -395,6 +368,44 @@ footer {
     }
 }
 
+@media (max-width: 768px) {
+    
+    nav .nav-links li a {
+        font-size: 15px;
+    }
+
+    nav{
+        right: 1px;
+    }
+
+    nav .logo {
+        display: flex;
+        font-size: 15px;
+
+    }
+
+    .parallax-text, h3 {
+        font-size: 28px;
+        left: 10%;
+    }
+
+    .header-content h1 {
+        font-size: 28px;
+    }
+
+    .header-content p {
+        font-size: 16px;
+    }
+
+    .cta-button {
+        font-size: 14px;
+    }
+
+    .social-icons a {
+        font-size: 30px;
+    }
+}
+
 
 @media (max-width: 480px) {
     nav {
@@ -419,6 +430,6 @@ footer {
     }
 
     .social-icons a {
-        font-size: 25px;
+        font-size: 50px;
     }
 }
