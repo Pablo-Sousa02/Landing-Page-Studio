@@ -28,14 +28,16 @@ header {
 
 .parallax-pc0 {
     background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
+        background-size: cover  ;
+        background-position: center;
+        position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        max-width: 100%;
+        min-width: 100%;
 }
 
 .parallax-pc1 {
@@ -324,7 +326,7 @@ footer {
     }
     .parallax-pc0 {
         background-attachment: fixed;
-        background-size: 1;
+        background-size: cover;
         background-position: center;
         position: relative;
         height: 100vh;
@@ -337,15 +339,14 @@ footer {
     }
     .parallax-cell1{
         background-attachment: fixed;
-        background-size: cover;
+        background-size: 1;
         background-position: center;
         position: relative;
         height: 60vh;
-        display: flex;
+        display: block;
         justify-content: center;
         align-items: center;
         color: rgb(255, 255, 255);
-        max-width: 100%;
         min-width: 90%;;
     }
     .parallax-cell h2{
@@ -355,7 +356,7 @@ footer {
     }
     .parallax-cell2{
         background-attachment: fixed;
-        background-size: cover;
+        background-size: 1;
         background-position: center;
         position: relative;
         height: 100vh;
@@ -363,7 +364,6 @@ footer {
         justify-content: center;
         align-items: center;
         color: rgb(255, 255, 255);
-        max-width: 100%;
         min-width: 90%;
     }
     .parallax-cell2 h3{
