@@ -10,25 +10,20 @@ html {
     scroll-behavior: smooth;
 }
 
-header .parallax-pc0{
+.parallax-pc0{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
-    color: white;
-    text-align: center;
-    position: relative;
-    animation: fadeIn 1s ease-in-out;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
 }
 
 .header-content p {
     margin-top: 500px;
 }
-
-
-.parallax-pc0 {
-    height: 100vh;
-    max-width: 100%;
-    min-width: 100%;
-}
-
 .parallax-pc1, .parallax-pc2 {
     height: 100vh;
 }
