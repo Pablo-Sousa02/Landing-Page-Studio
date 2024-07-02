@@ -322,22 +322,19 @@ footer {
 }
 
 @media (max-width: 768px) {
-    nav .nav-links {
-        flex-direction: column;
-        align-items: center;
-        display: none;
+    
+    nav .nav-links li a {
+        font-size: 15px;
     }
 
-    nav .nav-links li {
-        margin: 10px 0;
-    }
-
-    nav .nav-links.show {
-        display: flex;
+    nav{
+        right: 1px;
     }
 
     nav .logo {
-        font-size: 20px;
+        display: flex;
+        font-size: 15px;
+
     }
 
     .parallax-text, h3 {
@@ -390,6 +387,12 @@ footer {
     .parallax-cell2 h3{
         font-size: 38px;
     }
+    .parallax-pc1{
+        display: none;
+    }
+    .parallax-pc2{
+        display: none;
+    }
 }
 
 
@@ -417,11 +420,5 @@ footer {
 
     .social-icons a {
         font-size: 25px;
-    }
-    .parallax-pc1{
-        display: none;
-    }
-    .parallax-pc2{
-        display: none;
     }
 }
