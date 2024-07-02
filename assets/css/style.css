@@ -317,26 +317,23 @@ footer {
     .header-content p {
         font-size: 18px;
     }
+    .header-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        animation: fadeIn 1s ease-in-out;
+    }
 
     .cta-button {
         font-size: 16px;
     }
-    .parallax-pc0 {
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: rgb(255, 255, 255);
-        max-width: 100%;
-        min-width: 100%;
-    }
+    
     .parallax-cell1{
         background-attachment: fixed;
         background-position: center;
+        background-size: cover;
         position: relative;
         height: 100vh;
         display: block;
@@ -350,11 +347,23 @@ footer {
         position: absolute;
         margin-right: 18px;
     }
+    .parallax-pc0{
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+    }
     .parallax-cell2{
         background-attachment: fixed;
         background-position: center;
+        background-size: cover;
         position: relative;
-        height: 60vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
