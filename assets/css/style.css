@@ -304,6 +304,7 @@ footer {
     .parallax-cell1 {
         background-attachment: fixed;
         background-position: center;
+        background-size: cover;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -316,20 +317,10 @@ footer {
         font-size: 38px;
         margin-right: 18px;
     }
-
-    .parallax-pc0 {
-        height: 100vh;
-        display: flex;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        color: rgb(255, 255, 255);
-    }
-
     .parallax-cell2 {
         background-attachment: fixed;
         background-position: center;
-        background-size: 1;
+        background-size: cover;
         position: relative;
         height: 60vh;
         display: flex;
